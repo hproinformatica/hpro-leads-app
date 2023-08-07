@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "HPro Cadastro Cliente",
+    "slug": "hpro-cadastro-cliente-mobile",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": ""
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.hpro.hprocadastrocliente",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "br.com.hpro.hprocadastrocliente",
+      "versionCode": 1
+    },
+    "description": "",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "extra": {
+    }
+  }
+}
