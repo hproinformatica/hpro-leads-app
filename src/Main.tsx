@@ -221,6 +221,7 @@ function Main() {
 				<TextInput
 					autoFocus
 					label={'Nome'}
+					maxLength={40}
 					mode={'outlined'}
 					onChangeText={setNom}
 					onSubmitEditing={() => empRef.current?.focus()}
@@ -230,6 +231,7 @@ function Main() {
 					value={nom} />
 				<TextInput
 					label={'Empresa'}
+					maxLength={40}
 					mode={'outlined'}
 					onChangeText={setEmp}
 					onSubmitEditing={() => emaRef.current?.focus()}
@@ -239,6 +241,7 @@ function Main() {
 					value={emp} />
 				<TextInput
 					label={'E-mail'}
+					maxLength={200}
 					mode={'outlined'}
 					onChangeText={setEma}
 					onSubmitEditing={() => telRef.current?.focus()}
@@ -248,6 +251,7 @@ function Main() {
 					value={ema} />
 				<TextInput
 					label={'Telefone'}
+					maxLength={20}
 					mode={'outlined'}
 					onChangeText={setTel}
 					onSubmitEditing={() => celRef.current?.focus()}
@@ -257,6 +261,7 @@ function Main() {
 					value={tel} />
 				<TextInput
 					label={'Celular'}
+					maxLength={20}
 					mode={'outlined'}
 					onChangeText={setCel}
 					onSubmitEditing={() => nivRef.current?.focus()}

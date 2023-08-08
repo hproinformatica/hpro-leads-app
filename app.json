@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HPro Cadastro Cliente",
-    "slug": "hpro-cadastro-cliente-mobile",
+    "name": "HPro Leads",
+    "slug": "hpro-leads-mobile",
     "privacy": "public",
     "platforms": [
       "ios",
@@ -23,11 +23,11 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "br.com.hpro.hprocadastrocliente",
+      "bundleIdentifier": "br.com.hpro.hproleads",
       "buildNumber": "1.0.0"
     },
     "android": {
-      "package": "br.com.hpro.hprocadastrocliente",
+      "package": "br.com.hpro.hproleads",
       "versionCode": 1
     },
     "description": "",
